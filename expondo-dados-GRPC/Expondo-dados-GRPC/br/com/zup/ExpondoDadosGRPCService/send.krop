@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "br.com.zup.ExpondoDadosGRPCService.send"
+  },
+  "requests": [
+    {
+      "location": "send-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

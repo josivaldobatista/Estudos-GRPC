@@ -1,0 +1,19 @@
+{
+  "id": "ea83651f-24e1-493d-b006-bffe700521db",
+  "importStreams": [
+    {
+      "id": "d332876e-a45e-4339-bf63-1ca471c335d1",
+      "name": "Expondo dados via GRPC",
+      "importerName": "ProtoFile",
+      "createMissingOperations": true,
+      "options": {
+        "files": [
+          "../src/main/proto/expondoDadosGRPC.proto"
+        ],
+        "importPaths": []
+      }
+    }
+  ],
+  "authConfigs": [],
+  "certificates": []
+}

@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "br.com.zup.ExpondoDadosGRPCService.calculaFrete"
+  },
+  "requests": [
+    {
+      "location": "calculaFrete-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

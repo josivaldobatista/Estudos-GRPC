@@ -9,6 +9,17 @@ package br.com.zup;
 
 service ExpondoDadosGRPCService {
   rpc send (ExpondoDadosGRPCRequest) returns (ExpondoDadosGRPCReply) {}
+
+  rpc calculaFrete(CalculaFreteRequest) returns (CalculaFreteResponse) {}
+}
+
+message CalculaFreteRequest {
+  string cep = 1;
+}
+
+message CalculaFreteResponse {
+  double valor = 1;
+  string cep = 2;
 }
 
 message ExpondoDadosGRPCRequest {
