@@ -1,0 +1,15 @@
+{
+
+  "cpf": "95175385245",
+  "idade": 23,
+  "salario": 2500.00,
+  "ativo": true,
+  "cargo": "DEV",
+  "endereco": [
+    {
+      "logradouro": "Rua Branca",
+      "cep": "85236789",
+      "complemento": "Casa 1"
+    }
+  ]
+}

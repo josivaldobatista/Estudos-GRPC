@@ -1,0 +1,18 @@
+{
+  "details": {
+    "methodFqn": "br.com.zup.FuncionarioService.cadastrar",
+    "metadata": [
+      {
+        "key": "",
+        "value": ""
+      }
+    ]
+  },
+  "requests": [
+    {
+      "location": "cadastrar-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

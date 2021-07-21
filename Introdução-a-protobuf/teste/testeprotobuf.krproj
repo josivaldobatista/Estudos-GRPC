@@ -1,0 +1,19 @@
+{
+  "id": "b15be389-bfec-4e56-a3d0-7438f66f4177",
+  "importStreams": [
+    {
+      "id": "5b7d362d-84a8-46b1-969e-b941f260913e",
+      "name": "teste",
+      "importerName": "ProtoFile",
+      "createMissingOperations": true,
+      "options": {
+        "files": [
+          "../src/main/proto/estudoProtobuf.proto"
+        ],
+        "importPaths": []
+      }
+    }
+  ],
+  "authConfigs": [],
+  "certificates": []
+}
