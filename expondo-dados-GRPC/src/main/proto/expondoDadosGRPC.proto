@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "br.com.zup";
+option java_outer_classname = "ExpondoDadosGRPC";
+option objc_class_prefix = "HLW";
+
+package br.com.zup;
+
+service ExpondoDadosGRPCService {
+  rpc send (ExpondoDadosGRPCRequest) returns (ExpondoDadosGRPCReply) {}
+}
+
+message ExpondoDadosGRPCRequest {
+  string name = 1;
+}
+
+message ExpondoDadosGRPCReply {
+  string message = 1;
+}
