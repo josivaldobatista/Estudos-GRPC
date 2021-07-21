@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test
 import javax.inject.Inject
 
 @MicronautTest
-class ConsumindoEndpointGRPCTest {
+class FretesRestTest {
 
     @Inject
     lateinit var application: EmbeddedApplication<*>
