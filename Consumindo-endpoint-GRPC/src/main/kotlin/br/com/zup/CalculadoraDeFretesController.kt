@@ -6,7 +6,8 @@ import javax.inject.Inject
 
 @Controller(value = "/api/fretes")
 class CalculadoraDeFretesController(
-  @Inject protected val grpcRequest: ExpondoDadosGRPCServiceGrpc.ExpondoDadosGRPCServiceBlockingStub) {
+  @Inject protected val grpcRequest: ExpondoDadosGRPCServiceGrpc.ExpondoDadosGRPCServiceBlockingStub
+) {
 
   @Get
   fun calcula(cep: String): FreteResponse {
