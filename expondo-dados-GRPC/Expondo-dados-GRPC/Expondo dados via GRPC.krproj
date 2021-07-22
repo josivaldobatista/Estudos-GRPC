@@ -12,6 +12,18 @@
         ],
         "importPaths": []
       }
+    },
+    {
+      "id": "8cde2827-6206-4d20-8f3b-fb81bc33d8b3",
+      "name": "Health",
+      "importerName": "ProtoFile",
+      "createMissingOperations": true,
+      "options": {
+        "files": [
+          "../src/main/proto/health.proto"
+        ],
+        "importPaths": []
+      }
     }
   ],
   "authConfigs": [],
