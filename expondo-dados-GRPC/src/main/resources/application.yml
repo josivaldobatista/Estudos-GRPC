@@ -1,3 +1,22 @@
 micronaut:
   application:
     name: expondoDadosGRPC
+
+grpc:
+  server:
+    health:
+      enabled: true # Default é true
+
+##
+# Monitoramento e metricas
+# https://docs.micronaut.io/latest/guide/index.html#management
+##
+
+endpoints:
+  all:
+    #port: 8085 <- Para mudar de porta
+    sensitive: true # <- Para proteger os endpoints
+  health: # <- https://docs.micronaut.io/latest/guide/index.html#healthEndpoint
+    enabled: true
+    sensitive: false
+    details-visible: ANONYMOUS # <- https://docs.micronaut.io/latest/api/io/micronaut/management/endpoint/health/DetailsVisibility.html
