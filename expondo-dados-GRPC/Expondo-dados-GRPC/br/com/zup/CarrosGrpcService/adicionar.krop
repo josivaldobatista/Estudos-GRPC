@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "br.com.zup.CarrosGrpcService.adicionar"
+  },
+  "requests": [
+    {
+      "location": "adicionar-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}

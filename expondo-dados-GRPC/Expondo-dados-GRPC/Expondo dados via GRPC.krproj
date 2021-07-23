@@ -24,6 +24,18 @@
         ],
         "importPaths": []
       }
+    },
+    {
+      "id": "641d35c2-15af-4b23-862b-fc3c03aeb5d9",
+      "name": "Venda de Carros",
+      "importerName": "ProtoFile",
+      "createMissingOperations": true,
+      "options": {
+        "files": [
+          "../../testar-uma-API-gRPC/src/main/proto/carrosGrpc.proto"
+        ],
+        "importPaths": []
+      }
     }
   ],
   "authConfigs": [],
